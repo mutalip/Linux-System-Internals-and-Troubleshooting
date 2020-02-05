@@ -27,5 +27,7 @@ Try to think about it from every aspects. There can be following cases
 1) ulimit for your user/group is set to very low. You can't create processes more than ulimit range.
 2) Someone started fork bomb. There are no PIDs available actually.
 3) All PIDs have specific fd in the file system. You are running out of inodes.
+
+
 Unable to boot OS. What can be the issue?
 
